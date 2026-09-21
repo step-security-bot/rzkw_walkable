@@ -39,3 +39,13 @@ updates:
       - npm
     cooldown:
       default-days: 7
+
+  - package-ecosystem: npm
+    directory: /.open-next/server-functions/default/.next
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /.open-next/server-functions/default
+    schedule:
+      interval: daily
